@@ -13,17 +13,17 @@ The solution:
 ## **Project Architecture & Flow**
 
 PDF Document(s)
-↓
+->
 Preprocessing (cleaning, chunking)
-↓
+->
 Embeddings (MiniLM)
-↓
+->
 Vector Database (ChromaDB)
-↓
+->
 Retriever (semantic search)
-↓
+->
 Prompt Template + LLM (Ollama LLaMA3)
-↓
+->
 Streamlit Chatbot with Streaming
 
 
@@ -39,9 +39,13 @@ Streamlit Chatbot with Streaming
 
 ### **Clone & Setup**
 git clone https://github.com/Manjesh009/amlgo_labs_project.git
+
 cd https://github.com/Manjesh009/amlgo_labs_project.git
+
 python -m venv venv
-source venv/bin/activate        
+
+source venv/bin/activate
+
 pip install -r requirements.txt
 
 Place your PDF documents in the data/ folder.
