@@ -1,0 +1,12 @@
+langchain
+langchain-community
+pdfminer.six
+sentence-transformers
+transformers
+langchain-chroma
+python-dotenv
+tqdm
+streamlit
+langchain-huggingface
+langchain-ollama
+pymupdf

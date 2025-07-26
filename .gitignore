@@ -1,0 +1,14 @@
+# Ignore virtual environment
+amlgo/
+venv/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Chroma and chunks
+vectordb/
+chunks/
