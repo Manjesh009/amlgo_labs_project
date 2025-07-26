@@ -88,6 +88,12 @@ Embedding size of 384 dimensions, which is sufficient for semantic similarity ta
 
 Pre-trained on a diverse dataset, allowing robust handling of legal/technical content.
 
+---
+
+## **Demo**
+
+Video: https://drive.google.com/drive/folders/1pNB0UEyAk0309PQVsEwqPP29f4y1TMN1?usp=sharing 
+
 
 
 
