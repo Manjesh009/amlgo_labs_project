@@ -70,3 +70,30 @@ ollama serve
 
 streamlit run app.py
 
+---
+
+## **Database and model**
+
+### **ChromaDB**
+
+It is an open source and memory efficient data base which is very apt for small datasets. It stores embeddings and metadata (page number, chunk ID). It also enables semantic search by finding the most relevant chunks (top_k=3) using cosine similarity.
+
+### **Embedding Model**
+
+We used sentence-transformers/all-MiniLM-L6-v2, a lightweight and efficient embedding model.
+
+Balanced trade-off between performance and speed.
+
+Embedding size of 384 dimensions, which is sufficient for semantic similarity tasks.
+
+Pre-trained on a diverse dataset, allowing robust handling of legal/technical content.
+
+
+
+
+
+
+ 
+
+
+
